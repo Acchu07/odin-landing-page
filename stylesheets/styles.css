@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 0px auto;
+    padding: 0px;
+    max-width: 1500px;
+}
+
+/* Common for Header and Information Container */
+
+.headerContainer,
+.informationContainer{
+    background-color: #1F2937;
+    padding: 0px 100px;
+}
+
+.Text p,
+ul .formatting{
+    color: #E5E7EB;  
+    font-size: 18px;
+}
+
+/* Header Page */
+
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formatting{
+    font-size: 24px;
+    color: #F9F8F7;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/* Information Page */
+
+.informationContainer{
+    display: flex;
+    gap: 50px;
+}
+
+.Text h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+
+image{
+    height: auto;
+    max-width: 100%;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 20px;
+}
