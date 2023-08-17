@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    /* Doesnt work check online or make separate box and nest it? */
+    justify-content: space-between; 
     background-color: grey;
     margin: 0px auto;
     padding: 0px;
@@ -48,7 +50,7 @@ li{
 
 .informationContainer{
     display: flex;
-    gap: 50px;
+    gap: 5px;
 }
 
 .Text h2{
@@ -57,13 +59,29 @@ li{
     color: #F9FAF8;
 }
 
+/* Information Page - Image Related */
 
-image{
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 }
 
 button{
     background-color: #3882F6;
     border-radius: 20px;
+}
+
+/* Footer Container */
+.footer{
+    /* margin: 0px; */
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
 }
