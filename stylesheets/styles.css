@@ -1,8 +1,6 @@
 body{
     display: flex;
     flex-direction: column;
-    /* Doesnt work check online or make separate box and nest it? */
-    justify-content: space-between; 
     background-color: grey;
     margin: 0px auto;
     padding: 0px;
@@ -50,7 +48,9 @@ li{
 
 .informationContainer{
     display: flex;
+    justify-content: space-between;
     gap: 5px;
+    padding-bottom: 70px;
 }
 
 .Text h2{
@@ -67,21 +67,84 @@ li{
     align-items: center;
 }
 
-img{
-    height: auto;
+.image img{
+    max-height: auto;
     max-width: 50%;
 }
+
+
 
 button{
     background-color: #3882F6;
     border-radius: 20px;
 }
 
+button a{
+    color: white;
+    text-decoration: none;
+}
+
 /* Footer Container */
 .footer{
-    /* margin: 0px; */
     display: flex;
     background-color: #1F2937;
+    color: white;
     justify-content: center;
     align-items: center;
 }
+
+/* Second Part of the Box */
+
+h3{
+    text-align: center;
+    background-color: white;
+    margin:0;
+    padding: 25px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.randomInformationContainer{
+    display: flex;
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.randomInformationContainer .photoposition .subimages{
+    max-height: auto;
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+.photoposition{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.test{
+    text-align: center;
+    width: 150px;
+}
+
+/* Quote Container */
+.quoteContainer{
+    background: #E5E7EB;
+    padding: 50px;
+
+}
+
+.quoteContainer p{
+    text-align: center;
+    font-size: 36px;
+}
+
+.quoteContainer .end{
+    text-align: end;
+    margin-right: 300px;
+    font-size: 36px;
+}
+
+
