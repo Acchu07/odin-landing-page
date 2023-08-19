@@ -7,6 +7,13 @@ body{
     max-width: 1500px;
 }
 
+.catceologo{
+    height: 50px;
+    width: 50px;
+    border-radius: 90%;
+    margin: 10px 0px;
+}
+
 /* Common for Header and Information Container */
 
 .headerContainer,
